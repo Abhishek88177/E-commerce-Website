@@ -1,0 +1,62 @@
+
+
+.text-category{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.category-list{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.category-list-text{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card-cat-main{
+    padding-top: 10px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+.card-cat-text{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.name-of-cat{
+    font-weight: 500;
+}
+
+.items-text{
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+/* @media (min-width:407) {
+    .card-cat-main{
+        width: 80px;
+    }
+    
+} */
+
+
+.cat-items-list{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.cat-items-list::-webkit-scrollbar{
+    display: none;
+}
+
+/* .image-section{
+     */
+/* } */

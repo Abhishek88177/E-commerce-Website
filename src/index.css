@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item{
+  margin-inline: 7px;
+}
+
+.linkshead{
+  font-size: 18px;
+  font-weight: 'bold';
+}
+
+.icons-navbar{
+  font-size: 20px;
+  margin-inline: 7px;
+}
+
+.bag{
+  color: black;
+  cursor: pointer;
+}
+
+.middle-text{
+  font-size: 15px;
+  font-weight: '100';
+  font-family: 'Courier New', Courier, monospace;
+  animation: fadeIn 2s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.contact-navbar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headphone-icon{
+  font-size: 40px;
+  margin-top: -10px;
+  color: #3BB77E;
+
+}
+
+.mobile-no{
+  font-size: 26px;
+  font-weight: bold;
+  color: #3BB77E;
+}
+
+.textfor24{
+  margin-top: -20px;
+  font-size: 12px;
+}
+
+.button-shopnow{
+  background-color: #3BB77E;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  padding-inline: 10px;
+  padding-block: 3px;
+  font-weight: 500;
+}
+
+@media (max-width : 791px) {
+
+  .text-fade-middle{
+    display: none;
+  }
+  .contact-navbar{
+    display: none;
+  }
+}
